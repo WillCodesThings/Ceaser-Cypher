@@ -34,7 +34,7 @@ while True:
     printype('q to quit\n')
     choice = input('')
     if choice == '1':
-        printype('Please input the text you like to encrypt(Ceacer chypher)\n')
+        printype('Please input the text you like to encrypt(Ceaser Cypher)\n')
         inp = input('')
         printype('What is the delimiter?(1 - 26)\n')
         inpu = int(input(''))
@@ -42,7 +42,7 @@ while True:
         printype(f'The message is now encrypted:\n')
         printype(f'{encrypted}\n')
     if choice == '2':
-        printype('Please input the text you like to decrypt(Ceacer chypher)\n')
+        printype('Please input the text you like to decrypt(Ceaser Cypher)\n')
         inp = input('')
         printype('What is the delimiter?(1 - 26)\n')
         inpu = int(input(''))
